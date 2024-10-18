@@ -1,0 +1,15 @@
+Engine:
+Base engine: 2.5-liter four-cylinder with 191 horsepower and 
+	     186 pound-feet of torque
+Available engine: turbocharged 2.5-liter four-cylinder with 227 horsepower 
+                  and 310 pound-feet of torque (250 horsepower and 320 pound-feet of torque with premium fuel)
+Drivetrain:   all-wheel drive
+Transmission: six-speed automatic
+
+Drive Type: AWD (All Wheel Drive)
+
+Seating Capacity: 5
+
+Mileage: The fuel economy for the 2024 Mazda CX-30 varies depending on the model. 
+   The non-turbo CX-30 has an estimated 26 city, 33 highway, and 29 combined MPG. 
+   The turbocharged CX-30 has an estimated 22 city, 30 highway, and 25 combined MPG.

@@ -1,0 +1,9 @@
+Engine :
+ 
+1.5L turbocharged and intercooled DOHC 16-valve inline-4 engine that produces 152 horsepower and 184 lb of torque
+
+Drive Type : AWD (All Wheel Drive)
+
+Seating Capacity : 5
+
+Mileage : 9.3 L/100 km
