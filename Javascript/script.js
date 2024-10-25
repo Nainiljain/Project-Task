@@ -26,3 +26,4 @@ carListings.forEach((car) => {
     `;
     carListingGrid.innerHTML += carListingHTML;
 });
+
