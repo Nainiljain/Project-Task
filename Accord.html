@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="Images/Search/search.png">
     <link rel="icon" href="Images/Fevicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Cars Listing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Cars Details-Honda Accord</title>
 </head>
 <body>
     
@@ -58,7 +60,7 @@
     <div class="container">
         <!-- Car Details Section -->
          <section class="car-details">
-            <h1>Toyota Camry</h1>
+            <h1>Honda Accord</h1>
                 <div class="car-content">
                     <!-- Car Image and Thumbnails -->
                     <div class="image-gallery">
@@ -67,6 +69,7 @@
                             <img src="Images/Honda/ACCORD/download interior.jpeg" alt="Side View" class="thumbnail-img">
                             <img src="Images/Honda/ACCORD/download stearing.jpeg" alt="Wheel View" class="thumbnail-img">
                             <img src="Images/Honda/ACCORD/OIP extrior with interior.jpeg" alt="Interior View" class="thumbnail-img">
+                            <img src="Images/Honda/ACCORD/download exterior.jpeg" alt="Exterior Viiew" class="thumbnail-img">
                         </div>
                     </div>
     
@@ -75,15 +78,16 @@
                         <div class="specs">
                             <h3>Specifications</h3>
                             <ul>
-                                <li><strong>Brand:</strong> Toyota</li>
-                                <li><strong>Model:</strong> Camry</li>
-                                <li><strong>Year:</strong> 2024</li>
-                                <li><strong>Interior Color:</strong> Black</li>
-                                <li><strong>Engine:</strong> 2.5L V4</li>
-                                <li><strong>Fuel Type:</strong> Gasoline</li>
+                                <li><i class='fas fa-car'></i> Honda</li>
+                                <li><i class='fas fa-car-alt'></i> Accord</li>
+                                <li><i class='far fa-calendar-alt'></i> 2024</li>
+                                <li><i class='fas fa-fill'></i> Black</li>
+                                <li><i class='fas fa-oil-can'></i>1.5L V4</li>
+                                <li><i class='fas fa-gas-pump'></i> Gasoline</li>
+                                <li><i class='fas fa-tachometer-alt'></i>37 mpg</li>
                             </ul>
                         </div>
-    
+
                         <div class="price">
                             <h3>Price Break-down</h3>
                             <ul>
@@ -104,13 +108,28 @@
                 </div>
                 <div class="tab-content">
                     <div id="description" class="tab-panel active">
-                        <p>The Toyota Camry is one of the best-selling cars in its class with impressive features...</p>
+                        <div class="mybox">
+                            <div>
+                                Engine:
+                                Gas-powered engine: Turbocharged 1.5-liter four-cylinder with 192 horsepower and 192 pound-feet of torque. 
+                                Paired with a continuously variable automatic transmission and front-wheel drive <span id="1">....</span>
+                                <span class="mybox" id="mybox1id">
+                                    <p>Drive Type: FWD (Front Wheel Drive)</p>
+                                    <p>Seating Capacity: 5</p>
+                                    <p>Mileage:
+                                    The 2024 Honda Accord gets excellent gas mileage. 
+                                    It manages 29 mpg in the city and 37 mpg on the highway. 
+                                    The Accord EX-L hybrid has the best fuel economy and range, with 51/44 mpg city/highway and 614 miles</p>
+                                </span>
+                            </div>
+                            <button id="mybuttonid" onclick="changeReadMore()">
+                                Read More
+                            </button>
+                        </div>
                     </div>
                     <div id="reviews" class="tab-panel">
-                        <p>Customer reviews go here...</p>
-                    </div>
-                    <div id="comparison" class="tab-panel">
-                        <p>Comparison content goes here...</p>
+                        <p>Customers appreciate the Accord's roominess, fuel efficiency, and easy-to-use controls</p>
+                        <p>The redesigned Accord is described as a sensible mid-sized sedan with a turbocharged four-cylinder engine that performed well in tests</p>
                     </div>
                 </div>
             </section>
@@ -125,7 +144,7 @@
             &copy; 2024 CARO
         </div>
     </footer>
-        <script src="accord.js"></script>
+        <script src="Javascript/accord.js"></script>
     </body>
     </html>
     

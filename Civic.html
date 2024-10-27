@@ -7,13 +7,14 @@
     <meta name="description" content="Car Listing">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta rel="stylesheet" href="Style/normalize.css" type="text/css">
-    <link rel="stylesheet" href="Style/styles.css" type="text/css">
+    <link rel="stylesheet" href="Style/Accord.css" type="text/css">
     <link rel="stylesheet" href="Images/Search/search.png">
     <link rel="icon" href="Images/Fevicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Cars Listing</title>
 </head>
 <body>
+    
     <style>
         body {
             font-family: poppins;
@@ -54,9 +55,67 @@
             <li><a href="contact.html">Contact Us</a></li>
         </ul>
     </nav>
-    <main>
-
-    </main>
+    <div class="container">
+        <!-- Car Details Section -->
+         <section class="car-details">
+            <h1>Toyota Camry</h1>
+                <div class="car-content">
+                    <!-- Car Image and Thumbnails -->
+                    <div class="image-gallery">
+                        <img src="Images/Honda/ACCORD/download exterior.jpeg" alt="Toyota Camry" class="main-image">
+                        <div class="thumbnails">
+                            <img src="Images/Honda/ACCORD/download interior.jpeg" alt="Side View" class="thumbnail-img">
+                            <img src="Images/Honda/ACCORD/download stearing.jpeg" alt="Wheel View" class="thumbnail-img">
+                            <img src="Images/Honda/ACCORD/OIP extrior with interior.jpeg" alt="Interior View" class="thumbnail-img">
+                            <img src="Images/Honda/ACCORD/download exterior.jpeg" alt="Exterior Viiew" class="thumbnail-img">
+                        </div>
+                    </div>
+    
+                    <!-- Car Specifications and Price Break-Down -->
+                    <div class="car-info">
+                        <div class="specs">
+                            <h3>Specifications</h3>
+                            <ul>
+                                <li><strong>Brand:</strong> Toyota</li>
+                                <li><strong>Model:</strong> Camry</li>
+                                <li><strong>Year:</strong> 2024</li>
+                                <li><strong>Interior Color:</strong> Black</li>
+                                <li><strong>Engine:</strong> 2.5L V4</li>
+                                <li><strong>Fuel Type:</strong> Gasoline</li>
+                            </ul>
+                        </div>
+    
+                        <div class="price">
+                            <h3>Price Break-down</h3>
+                            <ul>
+                                <li><strong>OG Price:</strong> $25,000</li>
+                                <li><strong>Insurance:</strong> $1,200</li>
+                                <li><strong>Tax:</strong> $3,000</li>
+                            </ul>
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Tabs for Description, Reviews, and Comparison -->
+                <div class="tabs">
+                    <button class="tab-button active" data-tab="description">Description</button>
+                    <button class="tab-button" data-tab="reviews">Reviews</button>
+                    <button class="tab-button" data-tab="comparison">Comparison</button>
+                </div>
+                <div class="tab-content">
+                    <div id="description" class="tab-panel active">
+                        <p>The Toyota Camry is one of the best-selling cars in its class with impressive features...</p>
+                    </div>
+                    <div id="reviews" class="tab-panel">
+                        <p>Customer reviews go here...</p>
+                    </div>
+                    <div id="comparison" class="tab-panel">
+                        <p>Comparison content goes here...</p>
+                    </div>
+                </div>
+            </section>
+        </div>         
     <footer>
         <div>
             <a href="https://www.instagram.com/nainil_jain_0512" target="_blank"><i class="fa-brands fa-instagram"></i></a>
@@ -67,5 +126,7 @@
             &copy; 2024 CARO
         </div>
     </footer>
-</body>
-</html>    
+        <script src="Javascript/accord.js"></script>
+    </body>
+    </html>
+    
