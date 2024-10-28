@@ -125,8 +125,7 @@ textarea {
     height: 100px;
 }
 button {
-    width: 100px;
-    padding: 2px;
+    padding: px;
     background-color: #17134b;
     color:white;
     font-size: 13px;
