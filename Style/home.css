@@ -116,13 +116,12 @@ main {
     line-height: 30px;
 }
 
-.button-group button {
+.button-group a {
+    display: inline-block;
     position: relative;
-    bottom: 2cm;
+    bottom: 3cm;
     left: 6.5cm;
-    width: 130px;
-    height: 30px;
-    font-size: 12px;
+    font-size: 15px;
 
 }
 
@@ -132,6 +131,9 @@ main {
     border: solid black 1px;
     text-decoration: none;
     bottom: 25px;
+    width: 130px;
+    height: 20px;
+    text-align: center;
    
 }
 
@@ -140,6 +142,11 @@ main {
     left: 100px;
     bottom: 25px;
     text-decoration: none;
+    width: 130px;
+    height: 20px;
+    text-align: center;
+    border: solid #140451ff 1px;
+    color: #140451ff;
    
 }
 
