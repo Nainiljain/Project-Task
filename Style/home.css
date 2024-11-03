@@ -88,39 +88,6 @@ main {
     padding: 20px;
 }
 
-.car-listings {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 90px;
-}
-.car-listings img {
-    width: 225px;
-    height: 135px;
-}
-
-.car-listings li p {
-    width: 6.1cm;
-}
-
-.price {
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-}
-
-.buy-button {
-    background-color: #140451ff; 
-    color: white;
-    border: none;
-    position: relative;
-    left: 80px;
-    bottom: 25px;
-
-}
-
-span {
-    margin-left: 90px;
-}
 
 footer {
     display: flex;
@@ -143,15 +110,7 @@ footer p {
     color: #2c2c2c;
 }
 
-.car-listings li {
-    margin: 5px;
-    flex: 1 0 21%;
-    list-style: none;
-}
 
-p {
-    color: #a8a8a8;
-}
 
 .auth-buttons {
     text-align: right;
