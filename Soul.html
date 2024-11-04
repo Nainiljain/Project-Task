@@ -58,16 +58,16 @@
     <div class="container">
         <!-- Car Details Section -->
          <section class="car-details">
-            <h1>Toyota Camry</h1>
+            <h1>Kia Soul</h1>
                 <div class="car-content">
                     <!-- Car Image and Thumbnails -->
                     <div class="image-gallery">
-                        <img src="Images/Honda/ACCORD/download exterior.jpeg" alt="Toyota Camry" class="main-image">
+                        <img src="Images/Kia/Soul/Exterior.jpeg" alt="Kia Soul" class="main-image">
                         <div class="thumbnails">
-                            <img src="Images/Honda/ACCORD/download interior.jpeg" alt="Side View" class="thumbnail-img">
-                            <img src="Images/Honda/ACCORD/download stearing.jpeg" alt="Wheel View" class="thumbnail-img">
-                            <img src="Images/Honda/ACCORD/OIP extrior with interior.jpeg" alt="Interior View" class="thumbnail-img">
-                            <img src="Images/Honda/ACCORD/download exterior.jpeg" alt="Exterior Viiew" class="thumbnail-img">
+                            <img src="Images/Kia/Soul/Gt line exterior.jpeg" alt="Side View" class="thumbnail-img">
+                            <img src="Images/Kia/Soul/Gt line interior.jpeg" alt="Wheel View" class="thumbnail-img">
+                            <img src="Images/Kia/Soul/interior.jpeg" alt="Interior View" class="thumbnail-img">
+                            <img src="Images/Kia/Soul/Exterior.jpeg" alt="Exterior Viiew" class="thumbnail-img">
                         </div>
                     </div>
     
@@ -76,21 +76,22 @@
                         <div class="specs">
                             <h3>Specifications</h3>
                             <ul>
-                                <li><strong>Brand:</strong> Toyota</li>
-                                <li><strong>Model:</strong> Camry</li>
-                                <li><strong>Year:</strong> 2024</li>
-                                <li><strong>Interior Color:</strong> Black</li>
-                                <li><strong>Engine:</strong> 2.5L V4</li>
-                                <li><strong>Fuel Type:</strong> Gasoline</li>
+                                <li><i class='fas fa-car'></i> Kia</li>
+                                <li><i class='fas fa-car-alt'></i> Soul</li>
+                                <li><i class='far fa-calendar-alt'></i> 2024</li>
+                                <li><i class='fas fa-fill'></i> Red</li>
+                                <li><i class='fas fa-oil-can'></i>2.0L</li>
+                                <li><i class='fas fa-gas-pump'></i> Gasoline</li>
+                                <li><i class='fas fa-tachometer-alt'></i>27 mpl</li>
                             </ul>
                         </div>
     
                         <div class="price">
                             <h3>Price Break-down</h3>
                             <ul>
-                                <li><strong>OG Price:</strong> $25,000</li>
-                                <li><strong>Insurance:</strong> $1,200</li>
-                                <li><strong>Tax:</strong> $3,000</li>
+                                <li><strong>OG Price:</strong> $22,595</li>
+                                <li><strong>Insurance:</strong> $3,200</li>
+                                <li><strong>Tax:</strong> $2,000</li>
                             </ul>
                             <button class="buy-now">Buy Now</button>
                         </div>
@@ -101,18 +102,40 @@
                 <div class="tabs">
                     <button class="tab-button active" data-tab="description">Description</button>
                     <button class="tab-button" data-tab="reviews">Reviews</button>
-                    <button class="tab-button" data-tab="comparison">Comparison</button>
                 </div>
                 <div class="tab-content">
                     <div id="description" class="tab-panel active">
-                        <p>The Toyota Camry is one of the best-selling cars in its class with impressive features...</p>
+                        <div class="mybox">
+                            <div>
+                                Engine:                                
+                                The 2024 Kia Soul in Canada comes with a 2.0L four-cylinder engine that produces 147 horsepower and 132 lb. of torque. 
+                                It is paired with a continuously variable automatic transmission (CVT) and front-wheel drive<span id="1">....</span>
+                                <span class="mybox" id="mybox1id">
+                                    <p>Drive Type: FWD (Front Wheel Drive)</p>
+                                    <p>Seating Capacity: 5</p>
+                                    <p>Mileage:
+                                        27/33/30 MPG
+                                    </p>
+                                </span>
+                            </div>
+                            <button id="mybuttonid" onclick="changeReadMore()">
+                                Read More
+                            </button>
+                        </div>
                     </div>
                     <div id="reviews" class="tab-panel">
-                        <p>Customer reviews go here...</p>
+                        <p> The 2024 Kia Soul continues to be praised for its roomy interior, fuel efficiency, and solid reliability</p>
+                        <p>The Kia Soul is considered a compelling alternative to compact sedans, with average marks in predicted reliability and owner satisfaction</p>
                     </div>
-                    <div id="comparison" class="tab-panel">
-                        <p>Comparison content goes here...</p>
-                    </div>
+                </div>
+                <div id="reviews" class="tab-panel">
+                    <p>The smooth ride and handling, and several mention that the infotainment system is user-friendly, particularly in higher trims that come with a larger screen and additional functionality. </p>
+                    <p> The Elantra Hybrid also receives praise for its efficiency, with some reporting impressive mileage on long drives, making it a good choice for eco-conscious drivers.</p>
+                    <label for="author">Your Name</label>
+                    <input type="text" id="author" placeholder="Enter your name">
+                    <label for="review">Your Review</label>
+                    <textarea id="review" placeholder="Write your review here..."></textarea>
+                    <button class="submit-btn"  onclick="submitReview()">Submit Review</button>
                 </div>
             </section>
         </div>         
@@ -126,7 +149,7 @@
             &copy; 2024 CARO
         </div>
     </footer>
-        <script src="Javascript/accord.js"></script>
+        <script src="Javascript/soul.js"></script>
     </body>
     </html>
     

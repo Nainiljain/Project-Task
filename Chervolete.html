@@ -58,16 +58,16 @@
     <div class="container">
         <!-- Car Details Section -->
          <section class="car-details">
-            <h1>Toyota Camry</h1>
+            <h1>Chervolete Trax</h1>
                 <div class="car-content">
                     <!-- Car Image and Thumbnails -->
                     <div class="image-gallery">
-                        <img src="Images/Honda/ACCORD/download exterior.jpeg" alt="Toyota Camry" class="main-image">
+                        <img src="Images/Chervolete/Exterior image.jpeg" alt="Toyota Camry" class="main-image">
                         <div class="thumbnails">
-                            <img src="Images/Honda/ACCORD/download interior.jpeg" alt="Side View" class="thumbnail-img">
-                            <img src="Images/Honda/ACCORD/download stearing.jpeg" alt="Wheel View" class="thumbnail-img">
-                            <img src="Images/Honda/ACCORD/OIP extrior with interior.jpeg" alt="Interior View" class="thumbnail-img">
-                            <img src="Images/Honda/ACCORD/download exterior.jpeg" alt="Exterior Viiew" class="thumbnail-img">
+                            <img src="Images/Chervolete/Exterior.jpeg" alt="Side View" class="thumbnail-img">
+                            <img src="Images/Chervolete/Ineterior image.jpeg" alt="Wheel View" class="thumbnail-img">
+                            <img src="Images/Chervolete/Interior.jpeg" alt="Interior View" class="thumbnail-img">
+                            <img src="Images/Chervolete/Exterior image.jpeg" alt="Exterior Viiew" class="thumbnail-img">
                         </div>
                     </div>
     
@@ -76,21 +76,22 @@
                         <div class="specs">
                             <h3>Specifications</h3>
                             <ul>
-                                <li><strong>Brand:</strong> Toyota</li>
-                                <li><strong>Model:</strong> Camry</li>
-                                <li><strong>Year:</strong> 2024</li>
-                                <li><strong>Interior Color:</strong> Black</li>
-                                <li><strong>Engine:</strong> 2.5L V4</li>
-                                <li><strong>Fuel Type:</strong> Gasoline</li>
+                                <li><i class='fas fa-car'></i> Chervolete</li>
+                                <li><i class='fas fa-car-alt'></i> Trax</li>
+                                <li><i class='far fa-calendar-alt'></i> 2024</li>
+                                <li><i class='fas fa-fill'></i> Red, Green</li>
+                                <li><i class='fas fa-oil-can'></i>1.2L</li>
+                                <li><i class='fas fa-gas-pump'></i> Gasoline</li>
+                                <li><i class='fas fa-tachometer-alt'></i>8.3 mpg</li>
                             </ul>
                         </div>
     
                         <div class="price">
                             <h3>Price Break-down</h3>
                             <ul>
-                                <li><strong>OG Price:</strong> $25,000</li>
+                                <li><strong>OG Price:</strong> $26,009</li>
                                 <li><strong>Insurance:</strong> $1,200</li>
-                                <li><strong>Tax:</strong> $3,000</li>
+                                <li><strong>Tax:</strong> $4,900</li>
                             </ul>
                             <button class="buy-now">Buy Now</button>
                         </div>
@@ -101,17 +102,34 @@
                 <div class="tabs">
                     <button class="tab-button active" data-tab="description">Description</button>
                     <button class="tab-button" data-tab="reviews">Reviews</button>
-                    <button class="tab-button" data-tab="comparison">Comparison</button>
                 </div>
                 <div class="tab-content">
                     <div id="description" class="tab-panel active">
-                        <p>The Toyota Camry is one of the best-selling cars in its class with impressive features...</p>
+                        <div class="mybox">
+                            <div>
+                                Engine:
+                                1.2L three-cylinder engine
+                                The chervolte TRX 2024 Canada is powered by a turbocharged 1.2L three-cylinder engine that makes 137 horsepower and 162 lb-ft of torque.<span id="1">....</span>
+                                <span class="mybox" id="mybox1id">
+                                    <p>Drive Type: FWD (Front Wheel Drive)</p>
+                                    <p>Seating Capacity: 5</p>
+                                    <p>Mileage:
+                                        The 2024 Chevrolet Trax is rated by Natural Resources Canada (NRCan) at 8.3 L/100 km in the city, 7.4 on the highway, and 7.9 in combined driving.</p>
+                                </span>
+                            </div>
+                            <button id="mybuttonid" onclick="changeReadMore()">
+                                Read More
+                            </button>
+                        </div>
                     </div>
                     <div id="reviews" class="tab-panel">
-                        <p>Customer reviews go here...</p>
-                    </div>
-                    <div id="comparison" class="tab-panel">
-                        <p>Comparison content goes here...</p>
+                        <p>The smooth ride and handling, and several mention that the infotainment system is user-friendly, particularly in higher trims that come with a larger screen and additional functionality. </p>
+                        <p> The TRX Hybrid also receives praise for its efficiency, with some reporting impressive mileage on long drives, making it a good choice for eco-conscious drivers.</p>
+                        <label for="author">Your Name</label>
+                        <input type="text" id="author" placeholder="Enter your name">
+                        <label for="review">Your Review</label>
+                        <textarea id="review" placeholder="Write your review here..."></textarea>
+                        <button class="submit-btn"  onclick="submitReview()">Submit Review</button>
                     </div>
                 </div>
             </section>
@@ -126,7 +144,7 @@
             &copy; 2024 CARO
         </div>
     </footer>
-        <script src="Javascript/accord.js"></script>
+        <script src="Javascript/chervolete.js"></script>
     </body>
     </html>
     

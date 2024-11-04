@@ -58,16 +58,16 @@
     <div class="container">
         <!-- Car Details Section -->
          <section class="car-details">
-            <h1>Toyota Camry</h1>
+            <h1>Honda Hrv</h1>
                 <div class="car-content">
                     <!-- Car Image and Thumbnails -->
                     <div class="image-gallery">
-                        <img src="Images/Honda/ACCORD/download exterior.jpeg" alt="Toyota Camry" class="main-image">
+                        <img src="Images/Honda/HRV/download exterior with different car.jpeg" alt="Toyota Camry" class="main-image">
                         <div class="thumbnails">
-                            <img src="Images/Honda/ACCORD/download interior.jpeg" alt="Side View" class="thumbnail-img">
-                            <img src="Images/Honda/ACCORD/download stearing.jpeg" alt="Wheel View" class="thumbnail-img">
-                            <img src="Images/Honda/ACCORD/OIP extrior with interior.jpeg" alt="Interior View" class="thumbnail-img">
-                            <img src="Images/Honda/ACCORD/download exterior.jpeg" alt="Exterior Viiew" class="thumbnail-img">
+                            <img src="Images/Honda/HRV/download exterior.jpeg" alt="Side View" class="thumbnail-img">
+                            <img src="Images/Honda/HRV/download interior with features.jpeg" alt="Wheel View" class="thumbnail-img">
+                            <img src="Images/Honda/HRV/download interior.jpeg" alt="Interior View" class="thumbnail-img">
+                            <img src="Images/Honda/HRV/download exterior with different car.jpeg" alt="Exterior Viiew" class="thumbnail-img">
                         </div>
                     </div>
     
@@ -76,21 +76,21 @@
                         <div class="specs">
                             <h3>Specifications</h3>
                             <ul>
-                                <li><strong>Brand:</strong> Toyota</li>
-                                <li><strong>Model:</strong> Camry</li>
-                                <li><strong>Year:</strong> 2024</li>
-                                <li><strong>Interior Color:</strong> Black</li>
-                                <li><strong>Engine:</strong> 2.5L V4</li>
-                                <li><strong>Fuel Type:</strong> Gasoline</li>
-                            </ul>
+                                <li><i class='fas fa-car'></i> Honda</li>
+                                <li><i class='fas fa-car-alt'></i> HRV</li>
+                                <li><i class='far fa-calendar-alt'></i> 2024</li>
+                                <li><i class='fas fa-fill'></i> Metallic Grey, Light Green </li>
+                                <li><i class='fas fa-oil-can'></i>2.0L</li>
+                                <li><i class='fas fa-gas-pump'></i> Gasoline</li>
+                                <li><i class='fas fa-tachometer-alt'></i>30 mpg</li>
                         </div>
     
                         <div class="price">
                             <h3>Price Break-down</h3>
                             <ul>
-                                <li><strong>OG Price:</strong> $25,000</li>
-                                <li><strong>Insurance:</strong> $1,200</li>
-                                <li><strong>Tax:</strong> $3,000</li>
+                                <li><strong>OG Price:</strong> $23,695</li>
+                                <li><strong>Insurance:</strong> $3,200</li>
+                                <li><strong>Tax:</strong> $4,000</li>
                             </ul>
                             <button class="buy-now">Buy Now</button>
                         </div>
@@ -101,18 +101,40 @@
                 <div class="tabs">
                     <button class="tab-button active" data-tab="description">Description</button>
                     <button class="tab-button" data-tab="reviews">Reviews</button>
-                    <button class="tab-button" data-tab="comparison">Comparison</button>
                 </div>
                 <div class="tab-content">
                     <div id="description" class="tab-panel active">
-                        <p>The Toyota Camry is one of the best-selling cars in its class with impressive features...</p>
+                        <div class="mybox">
+                            <div>
+                                Engine:
+                                The 2024 Honda HR-V comes with a 2.0-liter four-cylinder engine that produces 158 horsepower and 138 pound-feet of torque12. It is paired with a continuously variable automatic (CVT) transmission <span id="1">....</span>
+                                <span class="mybox" id="mybox1id">
+                                    <p>Drive Type: FWD (Front Wheel Drive)</p>
+                                    <p>Seating Capacity: 5</p>
+                                    <p>Mileage:
+                                        25/30 MPG
+                                        25/30 MPG EPA combined MPG 27 MPG Range in miles (city/hwy) 350.0/420.0 mi. Fuel tank capacity 14.0 gal.
+                                    </p>
+                                </span>
+                            </div>
+                            <button id="mybuttonid" onclick="changeReadMore()">
+                                Read More
+                            </button>
+                        </div>
                     </div>
                     <div id="reviews" class="tab-panel">
-                        <p>Customer reviews go here...</p>
+                        <p>Customers appreciate the Accord's roominess, fuel efficiency, and easy-to-use controls</p>
+                        <p>The redesigned Accord is described as a sensible mid-sized sedan with a turbocharged four-cylinder engine that performed well in tests</p>
                     </div>
-                    <div id="comparison" class="tab-panel">
-                        <p>Comparison content goes here...</p>
-                    </div>
+                </div>
+                <div id="reviews" class="tab-panel">
+                    <p>The smooth ride and handling, and several mention that the infotainment system is user-friendly, particularly in higher trims that come with a larger screen and additional functionality. </p>
+                    <p> The Elantra Hybrid also receives praise for its efficiency, with some reporting impressive mileage on long drives, making it a good choice for eco-conscious drivers.</p>
+                    <label for="author">Your Name</label>
+                    <input type="text" id="author" placeholder="Enter your name">
+                    <label for="review">Your Review</label>
+                    <textarea id="review" placeholder="Write your review here..."></textarea>
+                    <button class="submit-btn"  onclick="submitReview()">Submit Review</button>
                 </div>
             </section>
         </div>         
@@ -126,7 +148,7 @@
             &copy; 2024 CARO
         </div>
     </footer>
-        <script src="Javascript/accord.js"></script>
+        <script src="Javascript/hrv.js"></script>
     </body>
     </html>
     
