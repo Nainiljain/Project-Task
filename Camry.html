@@ -62,12 +62,14 @@
                 <div class="car-content">
                     <!-- Car Image and Thumbnails -->
                     <div class="image-gallery">
-                        <img src="Images/Honda/ACCORD/download exterior.jpeg" alt="Toyota Camry" class="main-image">
+                        <img src="Images/Toyota/Camry/download exterior images.jpeg" alt="Toyota Camry" class="main-image">
                         <div class="thumbnails">
-                            <img src="Images/Honda/ACCORD/download interior.jpeg" alt="Side View" class="thumbnail-img">
-                            <img src="Images/Honda/ACCORD/download stearing.jpeg" alt="Wheel View" class="thumbnail-img">
-                            <img src="Images/Honda/ACCORD/OIP extrior with interior.jpeg" alt="Interior View" class="thumbnail-img">
-                            <img src="Images/Honda/ACCORD/download exterior.jpeg" alt="Exterior Viiew" class="thumbnail-img">
+                            <img src="Images/Toyota/Camry/download exterior.jpeg" alt="Side View" class="thumbnail-img">
+                            <img src="Images/Toyota/Camry/download interior.jpeg" alt="Wheel View" class="thumbnail-img">
+                            <img src="Images/Toyota/Camry/download interiors.jpeg" alt="Interior View" class="thumbnail-img">
+                            <img src="Images/Toyota/Camry/OIP Feature with specs.jpeg" alt="Exterior Viiew" class="thumbnail-img">
+                            <img src="Images/Toyota/Camry/OIP interior.jpeg" alt="Exterior Viiew" class="thumbnail-img">
+                            <img src="Images/Toyota/Camry/download exterior images.jpeg" alt="Exterior Viiew" class="thumbnail-img">
                         </div>
                     </div>
     
@@ -76,12 +78,13 @@
                         <div class="specs">
                             <h3>Specifications</h3>
                             <ul>
-                                <li><strong>Brand:</strong> Toyota</li>
-                                <li><strong>Model:</strong> Camry</li>
-                                <li><strong>Year:</strong> 2024</li>
-                                <li><strong>Interior Color:</strong> Black</li>
-                                <li><strong>Engine:</strong> 2.5L V4</li>
-                                <li><strong>Fuel Type:</strong> Gasoline</li>
+                                <li><i class='fas fa-car'></i> Toyota</li>
+                                <li><i class='fas fa-car-alt'></i> Camry</li>
+                                <li><i class='far fa-calendar-alt'></i> 2024</li>
+                                <li><i class='fas fa-fill'></i> Black</li>
+                                <li><i class='fas fa-oil-can'></i>2.5L V4</li>
+                                <li><i class='fas fa-gas-pump'></i> Gasoline</li>
+                                <li><i class='fas fa-tachometer-alt'></i>8.3 mpg</li>
                             </ul>
                         </div>
     
@@ -101,23 +104,29 @@
                 <div class="tabs">
                     <button class="tab-button active" data-tab="description">Description</button>
                     <button class="tab-button" data-tab="reviews">Reviews</button>
-                    <button class="tab-button" data-tab="comparison">Comparison</button>
                 </div>
                 <div class="tab-content">
                     <div id="description" class="tab-panel active">
-                        <p>The Toyota Camry is one of the best-selling cars in its class with impressive features...</p>
+                        <div class="mybox">
+                            <div>
+                                Engine:
+                                The base version is a 2.5-liter four-cylinder with 203 horsepower and 182 pound-feet of torque, and you can opt for a 3.5-liter V6 with 301 horsepower and 267 pound-feet of torque. 
+                                Both variants come with front-wheel drive and an eight-speed automatic transmission, and all-wheel drive is available on all models except for the TRD.<span id="1">....</span>
+                                <span class="mybox" id="mybox1id">
+                                    <p>Drive Type: FWD (Front Wheel Drive)</p>
+                                    <p>Seating Capacity: 5</p>
+                                    <p>Mileage:
+                                        EPA city/highway MPG 28/39 MPG EPA combined MPG 32 MPG Range in miles (city/hwy) 442.4/616.2 mi.</p>
+                                </span>
+                            </div>
+                            <button id="mybuttonid" onclick="changeReadMore()">
+                                Read More
+                            </button>
+                        </div>
                     </div>
-                    <div id="reviews" class="tab-panel">
-                        <p>Customer reviews go here...</p>
-                    </div>
-                    <div id="comparison" class="tab-panel">
-                        <p>Comparison content goes here...</p>
-                    </div>
-                </div>
-                
                 <div id="reviews" class="tab-panel">
                     <p>The smooth ride and handling, and several mention that the infotainment system is user-friendly, particularly in higher trims that come with a larger screen and additional functionality. </p>
-                    <p> The Elantra Hybrid also receives praise for its efficiency, with some reporting impressive mileage on long drives, making it a good choice for eco-conscious drivers.</p>
+                    <p> The Cammry Hybrid also receives praise for its efficiency, with some reporting impressive mileage on long drives, making it a good choice for eco-conscious drivers.</p>
                     <label for="author">Your Name</label>
                     <input type="text" id="author" placeholder="Enter your name">
                     <label for="review">Your Review</label>
