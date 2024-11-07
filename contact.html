@@ -57,14 +57,14 @@
     <main>
         <div class="form-container">
             <h1>Help Us Be Better</h1>
-            <form>
+            <form id="contactForm" method="post" action="contact.php">
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" placeholder="Value">
                 </div>
                 <div class="form-group">
-                    <label for="surname">Surname</label>
-                    <input type="text" id="surname" name="surname" placeholder="Value">
+                    <label for="Lastname">Lastname</label>
+                    <input type="text" id="Lastname" name="surname" placeholder="Value">
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
@@ -76,6 +76,7 @@
                 </div>
                 <button type="submit">Submit</button>
             </form>
+            <div id="popup-message" class="popup-message"></div>
         </div>
     </main>
 
@@ -89,5 +90,6 @@
             &copy; 2024 CARO
         </div>
     </footer>
+    <script src="Javascript/contact.js"></script>
 </body>
 </html>
