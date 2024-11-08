@@ -1,0 +1,13 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: #140451ff;
+    color: white;
+    position: sticky;
+}
+
+.auth-buttons {
+
+}
