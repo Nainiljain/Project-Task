@@ -78,8 +78,18 @@
             </form>
             <div id="popup-message" class="popup-message"></div>
         </div>
+        <div class="filter">
+            <label for="provinceFilter">Filter by Province:</label>
+            <select id="provinceFilter" onchange="filterMarkers()">
+              <option value="">All Provinces</option>
+              <option value="Ontario">Ontario</option>
+              <option value="Quebec">Quebec</option>
+              <option value="British Columbia">British Columbia</option>
+              <option value="Alberta">Alberta</option>
+            </select>
+          </div>
+          <div id="map"></div>
     </main>
-
     <footer>
         <div>
             <a href="https://www.instagram.com/nainil_jain_0512" target="_blank"><i class="fa-brands fa-instagram"></i></a>
@@ -90,5 +100,7 @@
             &copy; 2024 CARO
         </div>
     </footer>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqGzaY8SWnf9vYdPxfHqwSKxgJtxHZzCs&callback=initMap" async defer></script>
+    <script src="Javascript/Contact.js"></script>
 </body>
 </html>
