@@ -84,12 +84,8 @@ nav a {
 .nav a:hover {
     background-color: #2c2c2c;
 }
-
-
-
 .container {
 position: relative;
-top: 1cm;
 }
 
 h1 {
@@ -104,7 +100,7 @@ h1 {
   .signin-form {
     margin-left: 34.25%;
     background: #ffffff;
-    padding: 2em;
+    padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
