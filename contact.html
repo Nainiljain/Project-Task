@@ -54,7 +54,7 @@
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
     </nav>
-    <main>
+    <main class="container">
         <div class="form-container">
             <h1>Help Us Be Better</h1>
             <form id="contactForm" method="POST" action="https://formspree.io/f/xbljokle">
@@ -78,16 +78,6 @@
             </form>
             <div id="popup-message" class="popup-message"></div>
         </div>
-        <div class="filter">
-            <label for="provinceFilter">Filter by Province:</label>
-            <select id="provinceFilter" onchange="filterMarkers()">
-              <option value="">All Provinces</option>
-              <option value="Ontario">Ontario</option>
-              <option value="Quebec">Quebec</option>
-              <option value="British Columbia">British Columbia</option>
-              <option value="Alberta">Alberta</option>
-            </select>
-          </div>
           <div id="map"></div>
     </main>
     <footer>

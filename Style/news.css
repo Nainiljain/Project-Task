@@ -9,8 +9,12 @@ body {
 header {
     background-color: #140451ff;
     color: white;
+    padding: 1px;
+    width:auto;
+    height:1cm;
     position: sticky;
 }
+
 
 .store p {
     text-align: left;
@@ -144,24 +148,26 @@ main {
     bottom: 20px;
 }
 
-.news {
-    padding: 20px;
-    border: solid rgb(200, 197, 197) 1px;
-    border-radius: 5px;
-}
+
 
 .news a{
     text-decoration: none;
 }
 
 .title {
-    padding: 20px;
+    text-align: left;
     font-size: 16px;
     color: rgb(93, 92, 92);
     font-style: italic;
 }
-
-
+.title h2{
+    margin: 0;
+}
+.newscontent{
+        padding: 20px;
+        border: solid rgb(200, 197, 197) 1px;
+        border-radius: 5px;
+}
 .news-item {
     display: flex;
     gap: 12px;
@@ -170,6 +176,7 @@ main {
 .news-item img {
     width: 170px;
     height: 120px;
+    float: left;
 }
 
 
@@ -177,7 +184,7 @@ main {
     font-size: 16px;
     position:relative;
     bottom: .45cm;
-    
+    color: blue;
 }
 
 .news-text p {
