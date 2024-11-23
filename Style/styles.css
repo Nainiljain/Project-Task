@@ -118,10 +118,6 @@ main {
 
 }
 
-span {
-    margin-left: 90px;
-}
-
 footer {
     display: flex;
     align-items: center;
