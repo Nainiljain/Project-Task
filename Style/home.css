@@ -21,6 +21,14 @@ header {
     margin-top: -28px;
 }
 
+.store a {
+    text-align: left;
+    color: white;
+    margin-left: 50px;
+    margin-top: -28px;
+    text-decoration: none;
+}
+
 .space {
     padding-left: 30px;
 }
