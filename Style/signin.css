@@ -1,88 +1,97 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  width: 100%;
 }
 
 header {
-    background-color: #140451ff;
-    color: white;
-    padding: 1px;
-    width:auto;
-    height:1cm;
-    position: sticky;
+  background-color: #140451ff;
+  color: white;
+  padding: 1px;
+  width:auto;
+  height:1cm;
+  position: sticky;
 }
 
 .store p {
-    text-align: left;
-    color: white;
-    margin-left: 50px;
-    margin-top: -28px;
+  text-align: left;
+  color: white;
+  margin-left: 50px;
+  margin-top: -28px;
+}
+
+.store a {
+  text-align: left;
+  color: white;
+  margin-left: 50px;
+  margin-top: -28px;
+  text-decoration: none;
 }
 
 .space {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 
 .info {
-    text-align: right;
+  text-align: right;
 }
 
 .search {
-    width: max-content;
-    height: 0.5em;
-    display: flex;
-    align-items: center;
-    padding: 14px;
-    border-radius: 14px;
-    background-color: #f6f6f6;
+  width: max-content;
+  height: 0.5em;
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  border-radius: 14px;
+  background-color: #f6f6f6;
 }
 
 .search-input {
-    font-size: 12px;
-    color: #49454f;
-    margin-left: 0;
-    background: transparent;
-    border: none;
+  font-size: 12px;
+  color: #49454f;
+  margin-left: 0;
+  background: transparent;
+  border: none;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #fff;
-    position: sticky;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    width: auto;
-    height: 2cm;
-    font-size: 18px;
-    .logo {
-        float: left;
-        margin: 0.2em 2.5em;
-    }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  position: sticky;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: auto;
+  height: 2cm;
+  font-size: 18px;
+  .logo {
+      float: left;
+      margin: 0.2em 2.5em;
+  }
 }
 
 nav ul {
-    display: flex;
-    gap: 1rem;
-    list-style: none;
-    padding: 10px 0;
-    margin: 0.2em 2.5em;
-   
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0.2em 2.5em;
+ 
 }
 
 nav li {
-    margin: 0px;
+  margin: 0px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #757575;
-    cursor: pointer;
+  text-decoration: none;
+  color: #757575;
+  cursor: pointer;
 }
 
 .nav a:hover {
-    background-color: #2c2c2c;
+  background-color: #2c2c2c;
 }
 .container {
 position: relative;

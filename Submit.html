@@ -7,7 +7,7 @@
     <meta name="description" content="Car Listing">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta rel="stylesheet" href="Style/normalize.css" type="text/css">
-    <link rel="stylesheet" href="Style/Contact.css" type="text/css">
+    <link rel="stylesheet" href="Style/home.css" type="text/css">
     <link rel="icon" href="Images/Fevicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Home</title>
@@ -49,24 +49,16 @@
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
     </nav>
-    <main class="container">
-        <div class="form-container">
-            <h1>Help Us Be Better</h1>
-            <form action="./Submit.html" method="GET">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Value" required>
-                    <label for="Lastname">Lastname</label>
-                    <input type="text" id="Lastname" name="surname" placeholder="Value" required>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Value" required>
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Value" required></textarea>
-                <button type="submit">Submit</button>
-            </form>
-            <div id="popup-message" class="popup-message"></div>
-        </div>
-          <div id="map"></div>
+    <main>
+        <div class="main-content">
+            <h2>Thank you for Sending the information! :) </h2>
+            <p>
+              You will be hearing from me soon. In the meantime, please feel free to
+              browse through the site.
+            </p>
+          </div>
     </main>
+
     <footer>
         <div>
             <a href="https://www.instagram.com/nainil_jain_0512" target="_blank"><i class="fa-brands fa-instagram"></i></a>
@@ -77,9 +69,5 @@
             &copy; 2024 CARO
         </div>
     </footer>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqGzaY8SWnf9vYdPxfHqwSKxgJtxHZzCs&callback=initMap" async defer></script>
-    <script src="Javascript/Contact.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
 </body>
 </html>

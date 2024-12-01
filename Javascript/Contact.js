@@ -20,26 +20,21 @@ function initMap() {
 }
 
 // Function to calculate and display the route
-function calculateRoute() {
-  const from = document.getElementById("from").value;
-  const to = document.getElementById("to").value;
+var btn = document.getElementById('btn');
+btn.addEventListener('click',function(){
+    var name = document.getElementById('name').value;
+    var Lastname = document.getElementById('Lastname').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
+    var body = 'name: ' +name +'<br />Lastname: ' + Lastname +'<br />email: ' + email +'<br />message: ' + message;
 
-  if (from && to) {
-    const request = {
-      origin: from,
-      destination: to,
-      travelMode: google.maps.TravelMode.DRIVING, // Change to BICYCLING, TRANSIT, WALKING if needed
-    };
-
-    directionsService.route(request, (result, status) => {
-      if (status === google.maps.DirectionsStatus.OK) {
-        directionsRenderer.setDirections(result); // Display the route on the map
-      } else {
-        alert("Directions request failed due to " + status); // Error handling
-      }
-    });
-  } else {
-    alert("Please enter both the 'From' and 'To' locations.");
-  }
-}
-
+              Email.send({
+                SecureToken : "26c65abc-8e29-412f-bf09-8ddd8fc39e74",
+                To : 'nainil0512@gmail.com',
+                From : "nainiljain1@gmail.com",
+                Subject : "contact message",
+                Body : body
+            }).then(
+              message => alert(message)
+            );
+})
