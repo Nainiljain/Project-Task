@@ -174,9 +174,9 @@ button:hover {
     border: solid rgb(200, 197, 197) 1px;
     border-radius: 5px;
     display: flex;
-    margin-top: -550px;
-    height: 550px;
-    width: 650px;  
+    margin-top: -475px;
+    height: 650px;
+    width: 600px;  
     margin-left: 500px;  
 }
 footer {
