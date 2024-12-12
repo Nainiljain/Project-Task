@@ -197,4 +197,6 @@ footer p {
 
 .auth-buttons {
     text-align: right;
+    padding-right: 20px;
+    padding-top: 5px;
 }
