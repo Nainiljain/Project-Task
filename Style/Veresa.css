@@ -139,17 +139,21 @@ nav a {
 .thumbnails img:hover {
     border: 2px solid #333;
 }
-.car-info {
+.car-details {
     flex: 1;
 }
-.specs, .price {
+.specs, .price-breakdown {
+    background-color: white;
+    padding: 20px;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
-.specs ul, .price ul {
-    list-style-type: none;
-    padding: 0;
+.specs h2, .price-breakdown h2 {
+    margin-top: 0;
 }
-.specs ul li, .price ul li {
+.spec-item, .price-item {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 10px;
 }
 .buy-now {

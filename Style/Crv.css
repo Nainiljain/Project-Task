@@ -93,6 +93,13 @@ nav a {
 .nav a:hover {
     background-color: #2c2c2c;
 }
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
 .car-details h1 {
     text-align: center;
@@ -132,17 +139,21 @@ nav a {
 .thumbnails img:hover {
     border: 2px solid #333;
 }
-.car-info {
+.car-details {
     flex: 1;
 }
-.specs, .price {
+.specs, .price-breakdown {
+    background-color: white;
+    padding: 20px;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
-.specs ul, .price ul {
-    list-style-type: none;
-    padding: 0;
+.specs h2, .price-breakdown h2 {
+    margin-top: 0;
 }
-.specs ul li, .price ul li {
+.spec-item, .price-item {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 10px;
 }
 .buy-now {

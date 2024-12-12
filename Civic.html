@@ -13,7 +13,6 @@
     <title>Cars Listing</title>
 </head>
 <body>
-    
     <style>
         body {
             font-family: poppins;
@@ -24,14 +23,14 @@
                 <button style="background-color: #e3e3e3; 
                 border-radius: 5px; margin: 0.8em; color: #1e1e1e;
                 border: 0cap;"
-                onclick ="window.location.href='signin.html';">Sign In</button>
+                 onclick ="window.location.href='signin.html';">Sign In</button>
                 <button style="background-color: #757575;
                 border-radius: 5px; margin-right: 2em; color: #f5f5f5;
                 border: 0cap;"
-                 onclick="window.location.href='register.html'">Register</button>
+                onclick="window.location.href='register.html';">Register</button>
             </div>
             <div class="store">
-            <p>Mon to Fri: 8:00am to 7:00pm <a href="https://maps.app.goo.gl/unhKkBwVmdrj3UVJ9" target="_blank">59 Hayden St.</span></p>
+            <p>Mon to Fri: 8:00am to 7:00pm <a href="https://maps.app.goo.gl/unhKkBwVmdrj3UVJ9" target="_blank">59 Hayden St.</span></p></a>
             </div>
         </div>   
     </header>
@@ -42,17 +41,17 @@
                 <img src="Images/Logo/logo.png" alt="Logo" width="90px"> 
             </a>
         </div>
-        <ul>
-            
-            <li><a href="home.html">Home</a></li>
-            <li><a href="Carlisting.html">Car Listing</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
+        
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Carlisting.html">Car Listing</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
     </nav>
     <div class="container">
         <!-- Car Details Section -->
-         <section class="car-details">
+         <main class="car-details">
             <h1>Honda Civic</h1>
                 <div class="car-content">
                     <!-- Car Image and Thumbnails -->
@@ -70,31 +69,53 @@
                     </div>
     
                     <!-- Car Specifications and Price Break-Down -->
-                    <div class="car-info">
+                    <div class="car-details">
                         <div class="specs">
-                            <h3>Specifications</h3>
-                            <ul>
-                                <li><i class='fas fa-car'></i> Honda</li>
-                                <li><i class='fas fa-car-alt'></i> Civic</li>
-                                <li><i class='far fa-calendar-alt'></i> 2024</li>
-                                <li><i class='fas fa-fill'></i> Red, White, Orange</li>
-                                <li><i class='fas fa-oil-can'></i>2.0L</li>
-                                <li><i class='fas fa-gas-pump'></i> Gasoline</li>
-                                <li><i class='fas fa-tachometer-alt'></i>42 mpg</li>
-                            </ul>
+                            <h2>Specifications</h2>
+                            <div class="spec-item">
+                                <span>Brand</span>
+                                <span>Honda</span>
+                            </div>
+                            <div class="spec-item">
+                                <span>Model</span>
+                                <span>Civic</span>
+                            </div>
+                            <div class="spec-item">
+                                <span>Year</span>
+                                <span>2024</span>
+                            </div>
+                            <div class="spec-item">
+                                <span>Interior Color</span>
+                                <span>Red, White, Orange</span>
+                            </div>
+                            <div class="spec-item">
+                                <span>Engine</span>
+                                <span>2.0L</span>
+                            </div>
+                            <div class="spec-item">
+                                <span>Fuel Type</span>
+                                <span>Gasoline</span>
+                            </div>
                         </div>
-    
-                        <div class="price">
-                            <h3>Price Break-down</h3>
-                            <ul>
-                                <li><strong>OG Price:</strong> $26,520</li>
-                                <li><strong>Insurance:</strong> $6,200</li>
-                                <li><strong>Tax:</strong> $2,000</li>
-                            </ul>
-                            <button class="buy-now">Buy Now</button>
+                        <div class="price-breakdown">
+                            <h2>Price break-down</h2>
+                            <div class="price-item">
+                                <span>OG price</span>
+                                <span>$26,520</span>
+                            </div>
+                            <div class="price-item">
+                                <span>Insurance</span>
+                                <span> $6,200</span>
+                            </div>
+                            <div class="price-item">
+                                <span>Tax</span>
+                                <span> $2,000</span>
+                            </div>
+                            <button class="buy-button">Buy Now</button>
                         </div>
                     </div>
                 </div>
+            </main> 
     
                 <!-- Tabs for Description, Reviews, and Comparison -->
                 <div class="tabs">
@@ -132,7 +153,6 @@
                         <button class="submit-btn"  onclick="submitReview()">Submit Review</button>
                     </div>
                 </div>
-            </section>
         </div>         
     <footer>
         <div>
