@@ -7,8 +7,8 @@ if (window.location.pathname.endsWith("signin.html")) {
         const email = document.getElementById('email').value;
         const password = document.getElementById('password').value;
 
-        if (email === "admin@gmail.com" && password === "admin") {
-            alert("Hello admin");
+        if (email == "dankhanh898@gmail.com" && password =="admin") {
+            alert("Hello Khanh");
             localStorage.setItem('admin', JSON.stringify({ email, password }));
             window.location.href = "home.html";
         } else {

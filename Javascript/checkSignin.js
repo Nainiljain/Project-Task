@@ -7,7 +7,7 @@ if (window.location.pathname.endsWith("signin.html")) {
         const password = document.getElementById('password').value;
 
         if (email === "admin@gmail.com" && password === "admin") {
-            alert("Hello admin");
+            alert("Hello Khanh");
             localStorage.setItem('admin', JSON.stringify({ email, password }));
             window.location.href = "home.html";
         } else {
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (localStorage.getItem('admin')) {
         header.innerHTML = `
             <div id="logout" style="cursor: pointer;" onclick="logout()">
-                Hello admin, <b><u>Log out?</u></b>
+                Hello Khanh, <b><u>Log out?</u></b>
             </div>
         `;
     }
